@@ -38,8 +38,8 @@ public class Libro extends Escrito {
         this.interpretacion = interpretacion;}
 
     @Override
-    public int palabrasTotales(int palabrasPagina) {
-        return super.getPaginas()*palabrasPagina*2;
+    public int palabrasTotales(int palabrasP) {
+        return super.getPaginas()*palabrasP*2;
     }
 
     @Override
