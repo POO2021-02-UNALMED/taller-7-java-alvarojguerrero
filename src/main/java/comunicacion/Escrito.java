@@ -32,9 +32,12 @@ public abstract class Escrito extends Pictograma{
 	}
 	
 	public String resumen() {
-		String string = this.getOrigen() + this.titulo + this.autor + this.paginas +"\n";
-		return  string;
-	}
+		String r = this.getOrigen() + "\n";
+		r += this.titulo + "\n";
+		r += this.autor + "\n";
+		r += this.paginas;
+		return  r;
+	}	
 	
 	abstract int palabrasTotales(int palabrasPagina);
 	

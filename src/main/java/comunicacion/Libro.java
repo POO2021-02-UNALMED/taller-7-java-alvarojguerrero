@@ -54,6 +54,6 @@ public class Libro extends Escrito {
         return super.getOrigen() + "\n" + 
                 super.getTitulo() + "\n" + 
                 super.getAutor() + "\n" + 
-                super.getPaginas() + "\n" + co_autor +"\n" + editorial + "\n" + edicion;
+                super.getPaginas() + "\n" + co_autor + "\n" + editorial + "\n" + edicion;
     }
 }
